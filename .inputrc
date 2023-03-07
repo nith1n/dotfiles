@@ -1,0 +1,10 @@
+# Color
+set colored-stats on
+set colored-completion-prefix on
+
+# Comand Completion
+set completion-ignore-case on
+
+# History search
+"\e[A" history-search-backward
+"\e[B" history-search-forward
