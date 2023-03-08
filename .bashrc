@@ -86,5 +86,6 @@ _open_files_for_editing() {
 ################################################################################
 
 source /usr/share/nvm/init-nvm.sh
+# neofetch
 neofetch --ascii_distro archlinux
 alias config='/usr/bin/git --git-dir=/home/nithin/.dotfiles/ --work-tree=/home/nithin'
