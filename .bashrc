@@ -84,6 +84,7 @@ _open_files_for_editing() {
 # alias ef='_open_files_for_editing'     # 'ef' opens given file(s) for editing
 # alias pacdiff=eos-pacdiff
 ################################################################################
-neofetch
+
 source /usr/share/nvm/init-nvm.sh
+neofetch --ascii_distro archlinux
 alias config='/usr/bin/git --git-dir=/home/nithin/.dotfiles/ --work-tree=/home/nithin'
