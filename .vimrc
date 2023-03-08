@@ -1,3 +1,8 @@
+" Color Scheme
+set t_Co=256
+syntax on
+colorscheme gruvbox
+
 " Set compatability to Vim only
 set nocompatible
 
@@ -13,7 +18,7 @@ set number
 " Status bar
 set laststatus=2
 
-" .vimrc.plug file
+" Sourcing .vimrc.plug file [ PluginFile ]
 if filereadable(expand("~/.vimrc.plug"))
   source ~/.vimrc.plug
 endif
