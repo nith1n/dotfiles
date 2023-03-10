@@ -373,7 +373,7 @@
           <enabled>true</enabled>
           <name>Rofi run</name>
         </startupnotify>
-        <command> rofi -theme Arc-Dark -font "FiraCode 12" -show drun -show-icons</command>
+        <command> rofi -theme gruvbox-dark -font "FiraCode 12" -show drun -show-icons</command>
       </action>
     </keybind>
     <!--dual screen setup-->
