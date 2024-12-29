@@ -1,3 +1,4 @@
+$HOME/.config/polybar/launch.sh &
+picom &
 nitrogen --restore &
-rofi -theme gruvbox-dark -font "FiraCode 12" -show drun -show-icons &
-polybar &
+xinput set-prop 'DELL0B60:00 04F3:3146 Touchpad' 'libinput Tapping Enabled' 1 &
