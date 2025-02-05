@@ -1,0 +1,9 @@
+@import url("mocha.css");
+@import url("mono-capsule.css");
+
+* {
+  font-family: "JetBrainsMonoNL Nerd Font";
+  font-size: 0.9rem;
+  min-height: 0;
+  font-weight: bolder;
+}
